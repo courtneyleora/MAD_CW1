@@ -80,8 +80,8 @@ class _MyHomePageState extends State<MyHomePage>
               opacity: _animation,
               child: Image.network(
                 _showFirstImage
-                    ? 'file:///Users/clr.img/Downloads/file%20(1).png'
-                    : 'file:///Users/clr.img/Downloads/headerImg.png',
+                    ? 'https://pngtree.com/freepng/pink-bear-sweet-cute-png_13147927.html'
+                    : 'https://pngtree.com/freepng/monkey-cute_8800494.html',
               ),
             ),
             const SizedBox(height: 20),
