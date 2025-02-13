@@ -79,7 +79,12 @@ class _MyHomePageState extends State<MyHomePage>
             FadeTransition(
               opacity: _animation,
               child: Image.network(
-                  'https://i.pinimg.com/736x/72/40/b8/7240b88151daed6c848459c1cf083d8c.jpg'),
+                'https://www.dollycustom.com/wp-content/uploads/2022/05/il_570xN.3894289947_od6x.jpg',
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(Icons.broken_image,
+                      size: 100, color: Colors.red);
+                },
+              ),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
