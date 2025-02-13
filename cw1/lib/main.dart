@@ -79,10 +79,7 @@ class _MyHomePageState extends State<MyHomePage>
             FadeTransition(
               opacity: _animation,
               child: Image.network(
-                _showFirstImage
-                    ? 'https://i.pinimg.com/736x/98/4e/9e/984e9e670f0e60afda10bd3afa871286.jpg'
-                    : 'https://i.pinimg.com/736x/2a/68/3b/2a683b410c86e0590c78d36b68327929.jpg',
-              ),
+                  'https://i.pinimg.com/736x/72/40/b8/7240b88151daed6c848459c1cf083d8c.jpg'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
